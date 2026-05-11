@@ -36,4 +36,4 @@ def dodaj_cwiczenie():
         "nazwa": nazwa,
         "partia": partia,
         "liczba serii": serie
-    }
+    }      

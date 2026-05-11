@@ -1,7 +1,12 @@
 [
     {
-        "nazwa": "Wyciskanie lawki plaskiej",
-        "partia": "Klatka piersiowa",
-        "liczba serii": 1
+        "nazwa": "Wyciskanie na Lawce Skosnej",
+        "partia": "Klatka Piersiowa",
+        "liczba serii": 3
+    },
+    {
+        "nazwa": "Przysiady",
+        "partia": "Nogi",
+        "liczba serii": 2
     }
 ]
