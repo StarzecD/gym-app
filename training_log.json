@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "serie": 2,
+        "powtorzenia": 3,
+        "data": "2026-05-12"
+    },
+    {
+        "id": 2,
+        "serie": 1,
+        "powtorzenia": 3,
+        "data": "2026-05-12"
+    },
+    {
+        "id": 5,
+        "serie": 3,
+        "powtorzenia": 1,
+        "data": "2026-05-12"
+    },
+    {
+        "id": 1,
+        "serie": 2,
+        "powtorzenia": 3,
+        "data": "2026-05-12"
+    }
+]

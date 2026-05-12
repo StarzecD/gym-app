@@ -1,12 +1,14 @@
-from narzedzia_projektowe import dodaj_cwiczenie, wczytaj_dane, zapisz_dane
+from narzedzia_projektowe import dodaj_cwiczenie, wczytaj_dane, zapisz_dane, wczytaj_trening, zapisz_trening, dodaj_trening
 
 while True:
         print("\n--- MENU ---")
         print("1. Nowe ćwiczenie")
         print("2. Podgląd dostępnych ćwiczeń")
         print("3. Usuń ćwiczenie")
-        print("4. Pokaż statystyki")
-        print("5. Wyloguj się i wyjdź")
+        print("4. Dodaj sesje treningową")
+        print("5. Pokaż swoje sesje")
+        print("6. Pokaż statystyki")
+        print("7. Wyloguj się i wyjdź")
         try:
             wybor = int(input("Co chcesz dzisiaj zrobić? "))
         
@@ -22,7 +24,6 @@ while True:
                 for element in lista: #wez kazdy element z listy         
                     print(element["nazwa"])
                     print(element["partia"])
-                    print(element["liczba serii"])
                     print("-----\n")
             elif wybor == 3:
                 print("Wybrałeś usunięcie starego ćwiczenia")
@@ -41,8 +42,17 @@ while True:
                     except ValueError:
                         print("Błąd! Niepoprawna liczba!")
             elif wybor == 4:
-                print("Wybrałeś pokazanie statystyk")
+                print("Wybrales dodanie nowej sesji treningowej")
+                nowe = dodaj_trening()
+                if nowe is not None:
+                    lista = wczytaj_trening()
+                    lista.append(nowe)
+                    zapisz_trening(lista)
             elif wybor == 5:
+                break
+            elif wybor == 6:
+                print("Wybrałeś pokazanie statystyk")
+            elif wybor == 7:
                 print("Wybrałeś wyłączenie programu.")
                 break
             else:

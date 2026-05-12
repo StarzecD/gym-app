@@ -1,12 +1,22 @@
 [
     {
+        "id": 1,
         "nazwa": "Wyciskanie na Lawce Skosnej",
-        "partia": "Klatka Piersiowa",
-        "liczba serii": 3
+        "partia": "Klatka Piersiowa"
     },
     {
+        "id": 2,
         "nazwa": "Przysiady",
-        "partia": "Nogi",
-        "liczba serii": 2
+        "partia": "Nogi"
+    },
+    {
+        "id": 3,
+        "nazwa": "Skosna Lawka Plaska",
+        "partia": "Klatka Piersiowa"
+    },
+    {
+        "id": 4,
+        "nazwa": "Bulgary",
+        "partia": "Nogi"
     }
 ]
